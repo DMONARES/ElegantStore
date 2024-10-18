@@ -1,0 +1,109 @@
+.card
+{
+  position: relative;
+  display: grid;
+  gap: 12px;
+ 
+  &:hover &__button
+  {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &:hover &__fav
+  {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &__picture 
+  {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: var(--color-neutral-2);
+  }
+
+  &__new 
+  {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    padding: 4px 14px;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: bold;
+    background-color: var(--color-neutral-1);
+    border-radius: 4px;
+  }
+
+  &__fav
+  {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    transition: all 0.2s ease-in;
+    opacity: 0;
+    transform: translateY(-50%);
+    z-index: 5;
+  }
+
+  &__button
+  {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(50%);
+    z-index: 5;
+  }
+
+  &__description 
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 4px;
+  }
+
+  &__rating 
+  {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    z-index: 5;
+
+    svg
+    {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+    }
+  }
+
+  &__title 
+  {
+    font-size: 16px;
+    line-height: 1.625;
+    font-weight: 600;
+  }
+
+  &__price 
+  {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+  }  
+
+  &__link
+  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+}

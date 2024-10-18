@@ -1,0 +1,106 @@
+.icons-wrapper {
+	padding: 30px 0;
+	display: flex;
+	column-gap: 30px;
+}
+
+.icon {
+	fill: transparent;
+	stroke: transparent;
+	width: 24px;
+	height: 24px;
+
+	&--ticket-percent
+	{
+		fill: var(--color-neutral-1);
+	}
+
+	&--arrow-right
+	{
+		stroke: inherit;
+	}
+
+	&--close
+	{
+		stroke: var(--color-neutral-5);
+	}
+
+	&--chevron-down
+	{
+		stroke: var(--color-neutral-7);
+	}
+
+	&--search
+	{
+		stroke: var(--color-neutral-7);
+	}
+
+	&--user-circle
+	{
+		stroke: var(--color-neutral-7);
+	}
+
+	&--shopping-bag
+	{
+		stroke: var(--color-neutral-7);
+	}
+	
+	&--star
+	{
+		fill: var(--color-neutral-7);
+	}
+
+	&--favorite
+	{
+		fill: var(--color-neutral-4);
+		transition: all 0.2s ease-in;
+	}
+
+	&--shipping
+	{
+		stroke: var(--color-primary);
+	}
+
+	&--finance
+	{
+		stroke: var(--color-primary);
+	}
+
+	&--lock
+	{
+		stroke: var(--color-primary);
+	}
+
+	&--call
+	{
+		stroke: var(--color-primary);
+	}
+
+	&--email
+	{
+		fill: var(--color-primary);
+	}
+
+	&--instagram
+	{
+		stroke: var(--color-neutral-1);
+	}
+
+	&--facebook
+	{
+		stroke: var(--color-neutral-1);
+	}
+
+	&--youtube
+	{
+		stroke: var(--color-neutral-1);
+	}
+
+	&--menu-burger
+	{
+		stroke: var(--color-primary);
+	}
+}
+
+
+

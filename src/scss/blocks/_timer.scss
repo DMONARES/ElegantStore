@@ -1,0 +1,33 @@
+.timer
+{
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+
+  &__el {
+    text-align: center;
+  }
+
+  &__value {
+    width: 60px;
+    height: 60px;
+    font-family: var(--font-accent);
+    font-size: 34px;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    line-height: 60px;
+    color: var(--color-primary);
+    background-color: var(--color-neutral-2);
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    text-align: center;
+    color: var(--color-primary);
+  }
+  
+}
+
+

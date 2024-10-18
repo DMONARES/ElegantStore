@@ -1,0 +1,31 @@
+:root {
+	--container-width: 1184px;
+	--container-padding: 32px;
+
+	--font-main: 'Inter', sans-serif;
+	--font-accent: 'Poppins', sans-serif;
+	--font-nav: 'Space Grotesk', sans-serif;
+
+	/*Primary Color*/
+	--color-primary: #000000;
+
+	/*Secondary Color*/
+	--color-blue: #377DFF;
+	--color-green: #38CB89;
+	--color-orange: #FFAB00;
+	--color-red: #FF3030;
+
+	/*Neutral Color*/
+	--color-neutral-1: #FEFEFE;
+	--color-neutral-2: #F3F5F7;
+	--color-neutral-3: #E8ECEF;
+	--color-neutral-4: #6C7275;
+	--color-neutral-5: #343839;
+	--color-neutral-6: #232627;
+	--color-neutral-7: #141718;
+
+
+  --laptop-size: 1024px;
+	--tablet-size: 768px;
+	--mobile-size: 425px;
+}

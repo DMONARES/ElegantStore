@@ -1,0 +1,27 @@
+.button-fav
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 32px;
+  height: 32px;
+  background-color: var(--color-neutral-1);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 8px 16px -3px rgba(15, 15, 15, 0.12);
+  // opacity: 0;
+  // transform: translateY(50%);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+
+  &:hover
+  {
+    background-color: var(--color-red);
+
+    svg
+		{
+			fill: var(--color-neutral-1);
+		}
+  }
+}

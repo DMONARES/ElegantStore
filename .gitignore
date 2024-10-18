@@ -1,0 +1,7 @@
+node_modules
+.webp
+.DS_Store
+.vscode
+__MACOSX
+readme.md
+Заметки по сборке.md

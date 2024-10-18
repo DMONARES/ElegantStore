@@ -1,0 +1,37 @@
+.pagination
+{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  &__dot
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &::before
+    {
+      content: '';
+      display: block;
+      width: 8px;
+      height: 8px;
+      background-color: var(--color-neutral-4);
+      border-radius: 50%;
+    }
+
+    &--active
+    {
+      border: 1px solid var(--color-primary);
+
+      &::before
+      {
+        background-color: var(--color-primary);
+      }
+    }
+  }
+}
